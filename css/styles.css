@@ -1,0 +1,39 @@
+ul{
+  list-style-type: none;
+}
+li{
+  display: flex;
+  flex-direction: column;
+  border: 0px;
+  border-style: solid;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 70%;
+}
+p{
+  margin-top: 10px;
+  text-indent: 10px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+p:hover{
+  cursor: pointer;
+}
+li > div{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+div > section{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+}
+section > button{
+  height: 40px;
+  width: 120px;
+}
+img:hover{
+  cursor: pointer;
+}
